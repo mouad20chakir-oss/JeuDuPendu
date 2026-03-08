@@ -1,0 +1,103 @@
+#l1{
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin-left: 15px;
+}
+#l2{
+    width: 3px;
+    height: 100px;
+    background: black;
+    margin-left: 15px;
+}
+#l3{
+    width: 40px;
+    height: 3px;
+    background: black;
+}
+#l4{
+    width: 3px;
+    height: 15px;
+    background: black;
+    transform: translate(53.5px,-105px);
+}
+
+
+#head{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    transform: translate(45px,-108px);
+}
+#bod{
+    width: 4px;
+    height: 45px;
+    background: black;
+    transform: translate(53.5px,-108px);
+}
+#hands{
+    width: 25px;
+    height: 3px;
+    background: black;
+    transform: translate(44px,-134px);
+}
+#feet1{
+    width: 20px;
+    height: 3px;
+    background: black;
+    transform: rotate(40deg);
+    position: relative;
+    left: 55px;
+    top: -108px;
+}
+#feet2{
+    width: 20px;
+    height: 3px;
+    background: black;
+    transform: rotate(-40deg);
+    position: relative;
+    left: 38px;
+    top: -110px;
+}
+.keyword{
+    display: flex;
+    gap: 8px;
+}
+#btn{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+
+}
+#fstline{
+    margin: 20px 15px;
+}
+#scdline{
+    margin: 20px 23px;
+}
+#trdline{
+    margin: 20px 140px;
+}
+body{
+    background-color: rgb(222, 150, 56);
+}
+.alphabets{
+    width: 500px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    margin: 0 auto;
+
+}
+.drow{
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
