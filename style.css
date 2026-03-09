@@ -59,12 +59,13 @@
     position: relative;
     left: 38px;
     top: -110px;
+    visibility: hidden;
 }
 .keyword{
     display: flex;
     gap: 8px;
 }
-#btn{
+.btn{
     width: 35px;
     height: 35px;
     position: relative;
@@ -84,8 +85,26 @@
 }
 body{
     background-color: rgb(222, 150, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
 .alphabets{
+    width: 480px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    margin: 0 auto;
+    padding: 20px 5px 5px 5px;
+}
+.drow{
+    margin-top: 15px;
+}
+.input{
     width: 500px;
     height: 250px;
     background: rgba(255, 255, 255, 0.18);
@@ -93,11 +112,14 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.4px);
     -webkit-backdrop-filter: blur(7.4px);
-    margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.drow{
-    position: relative;
-    top: 50%;
-    left: 50%;
+#tip{
+    width: 35px;
+    height: 35px;
+    background: grey;
+    color: white;
+    border-radius: 5px;
 }
