@@ -29,18 +29,21 @@
     border-radius: 50%;
     background: black;
     transform: translate(45px,-108px);
+    visibility: hidden;
 }
 #bod{
     width: 4px;
     height: 45px;
     background: black;
     transform: translate(53.5px,-108px);
+    visibility: hidden;
 }
 #hands{
     width: 25px;
     height: 3px;
     background: black;
     transform: translate(44px,-134px);
+    visibility: hidden;
 }
 #feet1{
     width: 20px;
@@ -50,6 +53,7 @@
     position: relative;
     left: 55px;
     top: -108px;
+    visibility: hidden;
 }
 #feet2{
     width: 20px;
@@ -98,7 +102,6 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.4px);
     -webkit-backdrop-filter: blur(7.4px);
-    margin: 0 auto;
     padding: 20px 5px 5px 5px;
 }
 .drow{
